@@ -18,7 +18,7 @@ export default function Weather(props) {
 						name="Weather"
 						onClick={props.changeHandler}
 					></button>
-					<img src="../../dist/assets/Imagenes/weather.png" />
+					<img src="../../dist/Imagenes/weather.png" />
 				</div>
 			</Draggable>
 		</div>
