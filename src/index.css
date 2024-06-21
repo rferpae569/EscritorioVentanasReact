@@ -189,7 +189,7 @@ input:checked + .slider:before {
 }
 
 .remove-button {
-  background: url("../../Imagenes/remove-button-image.svg");
+  background: url("../dist/Imagenes/remove-button-image.svg");
   width: 30px;
   height: 30px;
   border: none;
