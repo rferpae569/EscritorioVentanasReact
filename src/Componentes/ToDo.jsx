@@ -19,7 +19,7 @@ export default function ToDo(props) {
 						onClick={props.changeHandler}
 					></button>
 
-					<img src="../../dist/Imagenes/todo.png" />
+					<img src="/EscritorioVentanasReact/Imagenes/todo.png" />
 				</div>
 			</Draggable>
 		</div>

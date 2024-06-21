@@ -18,7 +18,7 @@ export default function News(props){
 						name="News"
 						onClick={props.changeHandler}
 					></button>
-					<img src="../../dist/Imagenes/news.png" />
+					<img src="/EscritorioVentanasReact/Imagenes/news.png" />
 				</div>
 			</Draggable>
 		</div>

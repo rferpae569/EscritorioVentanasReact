@@ -2,6 +2,7 @@
   "name": "escritorioventanas",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://rferpae569.github.io/EscritorioVentanasReact",
   "type": "module",
   "scripts": {
     "dev": "vite",

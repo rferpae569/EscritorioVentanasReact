@@ -18,7 +18,7 @@ export default function Quote(props) {
 						name="Quote"
 						onClick={props.changeHandler}
 					></button>
-					<img src="../../dist/Imagenes/quote.png" />
+					<img src="/EscritorioVentanasReact/Imagenes/quote.png" />
 				</div>
 			</Draggable>
 		</div>
