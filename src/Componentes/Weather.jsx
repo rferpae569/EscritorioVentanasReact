@@ -1,26 +1,27 @@
-import React from "react"
-import Draggable from "react-draggable"
+import React from "react";
+import Draggable from "react-draggable";
 
+// Este componente renderiza un widget de clima que se puede arrastrar
 export default function Weather(props) {
-	return (
-		<div
-			className="widget-wrapper Weather"
-			style={{ gridArea: `area-${props.gridArea}` }}
-		>
-			<Draggable
-				onStop={props.dragHandler}
-				defaultPosition={props.getOffset("Weather")}
-				cancel="button"
-			>
-				<div className="widget Weather">
-					<button
-						className="remove-button"
-						name="Weather"
-						onClick={props.changeHandler}
-					></button>
-					<img src="/EscritorioVentanasReact/Imagenes/weather.png" />
-				</div>
-			</Draggable>
-		</div>
-	)
+  return (
+    <div
+      className="widget-wrapper Weather"
+      style={{ gridArea: `area-${props.gridArea}` }}
+    >
+      <Draggable
+        onStop={props.dragHandler}
+        defaultPosition={props.getOffset("Weather")}
+        cancel="button"
+      >
+        <div className="widget Weather">
+          <button
+            className="remove-button"
+            name="Weather"
+            onClick={props.changeHandler}
+          ></button>
+          <img src="/EscritorioVentanasReact/Imagenes/weather.png" />
+        </div>
+      </Draggable>
+    </div>
+  );
 }

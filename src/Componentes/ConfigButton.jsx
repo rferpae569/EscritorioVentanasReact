@@ -1,3 +1,4 @@
+// Este componente servira para configurar los botones de la pagina web
 export default function ConfigButton(props){
   return (
       <label className="switch">

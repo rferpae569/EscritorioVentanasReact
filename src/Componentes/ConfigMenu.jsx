@@ -1,6 +1,7 @@
 import ConfigButton from "./ConfigButton";
 import {nanoid} from "nanoid"
 
+//Este componente servira para configurar y mostras los botones de reinicio y guardar
 export default function ConfigMenu(props){
     const {widgetConfig, setWidgetConfig, DEFAULT_CONFIG} = props.stateProps
 

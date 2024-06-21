@@ -1,3 +1,4 @@
+//Creamos el array para los diferentes weather
 export default [
   {
     name: "Clock",
